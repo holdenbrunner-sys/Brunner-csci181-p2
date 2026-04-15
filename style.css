@@ -6,8 +6,7 @@
   gap: 1rem;
 }
 .project-card {
-  background-color: black;
-  height: 20rem;
+  height: 24rem;
 }
 ul {
   list-style: none;
@@ -18,10 +17,31 @@ button {
   position: relative;
   padding: 0%;
   overflow: hidden;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+}
+button:hover {
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  transform: translateY(-2px);
 }
 img {
   height: 100%;
   width: 100%;
   overflow: hidden;
   position: relative;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
