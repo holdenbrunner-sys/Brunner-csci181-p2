@@ -28,13 +28,15 @@ const projects = [
   },
   {
     title: "Weather Script",
-    details: "The JavaScript used to display the current weater.",
+    details:
+      "The JavaScript used to display the current weater. It fetches the data using try/except/finally.",
     link_text: "View in Github",
     href: "https://github.com/holdenbrunner-sys/Brunner-csci181-practice/blob/main/scripts/weather.js",
   },
   {
-    title: "Project 1",
-    details: "First Major Project. Redesigned a website homepage.",
+    title: "Redesign",
+    details:
+      "First Major Project. Redesigned a poorly made website homepage using improved web design techniques",
     link_text: "View in Github",
     href: "https://github.com/holdenbrunner-sys/brunner-csci181-p1",
   },
