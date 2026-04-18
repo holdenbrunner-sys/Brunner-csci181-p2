@@ -60,6 +60,7 @@ function openModalByIndex(index) {
   modal_details.textContent = projects[index].details;
   modal_link_details.textContent = projects[index].link_text;
   modal_link.textContent = projects[index].href;
+  modal_link.href = projects[index].href;
   document.body.style.overflow = "hidden";
 }
 function onCardClicked(event) {
