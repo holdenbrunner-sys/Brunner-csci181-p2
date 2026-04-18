@@ -36,6 +36,15 @@ img {
   overflow: hidden;
   position: relative;
 }
+p {
+  display: flex;
+  justify-content: center;
+}
+
+#project-title {
+  background-color: rgb(0, 0, 0, 0.1);
+  margin: 0;
+}
 
 @media (prefers-reduced-motion: reduce) {
   * {
